@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/HP/AndroidStudioProjects/internship/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.206" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/internship/app/src/main/res/layout/activity_availableroute.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/internship/app/src/main/res/layout/activity_login2.xml" value="0.21965579710144928" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/internship/app/src/main/res/layout/activity_main.xml" value="0.2151268115942029" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/internship/app/src/main/res/layout/activity_newroute.xml" value="0.152" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/internship/app/src/main/res/layout/activity_route.xml" value="0.21965579710144928" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/internship/app/src/main/res/layout/activity_routelist.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/internship/app/src/main/res/layout/activity_splash1.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/internship/app/src/main/res/layout/activity_stopname.xml" value="0.21965579710144928" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

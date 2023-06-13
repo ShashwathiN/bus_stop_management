@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/img3">
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#0C4260"
+        android:text="\nBUSTALES"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+    <ImageView
+        android:id="@+id/back"
+        android:layout_marginTop="25dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_launcher_foreground"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ed1"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Route Number"
+        app:endIconMode="clear_text"
+        android:layout_below="@+id/head"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+           android:id="@+id/e1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="13"
+            android:textColor="@color/black"
+            android:textCursorDrawable="@null" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ed2"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        app:endIconMode="clear_text"
+        android:layout_below="@+id/ed1"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+           android:id="@+id/e2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:maxLength="13"
+            android:hint="Enter Stopname"
+            android:textColorHint="@color/black"
+            android:textCursorDrawable="@null" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed2"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#0C4260"
+        android:text="SAVE"
+        android:textColor="@color/white"/>
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed2"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#0C4260"
+        android:layout_marginStart="20dp"
+        android:text="CLEAR"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>
